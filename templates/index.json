@@ -15,6 +15,7 @@
         "slide_TJBKnJ": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/05.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -32,6 +33,7 @@
         "slide_4jqNbn": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/04.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -49,6 +51,7 @@
         "slide_eMK6AA": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/03.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -71,51 +74,13 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
+        "slide_height": "large",
+        "slider_visual": "dots",
         "auto_rotate": false,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "image_behavior": "none",
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our latest",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop all",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 12,
-        "padding_bottom": 32
       }
     },
     "featured_collection": {
@@ -149,7 +114,6 @@
   },
   "order": [
     "slideshow_JcayDF",
-    "image-with-text",
     "featured_collection"
   ]
 }
