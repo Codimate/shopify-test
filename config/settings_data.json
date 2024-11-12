@@ -10,16 +10,16 @@
 {
   "current": {
     "logo_width": 100,
-    "type_header_font": "figtree_n5",
+    "type_header_font": "abril_fatface_n4",
     "heading_scale": 125,
-    "type_body_font": "anonymous_pro_n4",
+    "type_body_font": "lucida_grande_n4",
     "body_scale": 105,
     "page_width": 1400,
     "spacing_sections": 20,
     "spacing_grid_horizontal": 24,
     "spacing_grid_vertical": 24,
     "animations_reveal_on_scroll": true,
-    "animations_hover_elements": "none",
+    "animations_hover_elements": "default",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -140,6 +140,7 @@
         }
       }
     },
+    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -165,11 +166,11 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#DBE9E0",
+          "background": "#dbe9e0",
           "background_gradient": "",
           "text": "#020912",
           "button": "#020912",
-          "button_label": "#DBE9E0",
+          "button_label": "#dbe9e0",
           "secondary_button_label": "#020912",
           "shadow": "#020912"
         }
@@ -187,11 +188,22 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#FFDFB8",
+          "background": "#f3e6d6",
           "background_gradient": "",
           "text": "#020912",
           "button": "#020912",
-          "button_label": "#FFDFB8",
+          "button_label": "#ffdfb8",
+          "secondary_button_label": "#020912",
+          "shadow": "#020912"
+        }
+      },
+      "scheme-c9be58c3-a00e-4edd-830a-c654cf85d688": {
+        "settings": {
+          "background": "#ffc4a9",
+          "background_gradient": "linear-gradient(133deg, rgba(250, 220, 54, 1) 11%, rgba(254, 98, 146, 1) 49%, rgba(250, 220, 54, 1) 87%)",
+          "text": "#020912",
+          "button": "#000000",
+          "button_label": "#fcfcfc",
           "secondary_button_label": "#020912",
           "shadow": "#020912"
         }
