@@ -1,6 +1,63 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "text-image-sec",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Welcome to Our Store!"
+    },
+    {
+      "type": "textarea",
+      "id": "section_text",
+      "label": "Section Text",
+      "default": "Add some descriptive text for your store here."
+    },
+    {
+      "type": "image_picker",
+      "id": "section_image",
+      "label": "Section Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Text and Image",
+      "category": "Custom Sections"
+    }
+  ]
+}
 {% endschema %}
+
+<section class="custom-section">
+  <div class="container">
+    <!-- Text content -->
+    <div class="custom-text">
+      <h2>{{ section.settings.section_heading }}</h2>
+      <p>{{ section.settings.section_text }}</p>
+    </div>
+
+    <!-- Image content -->
+    <div class="custom-image">
+      {% if section.settings.section_image != blank %}
+        <img src="{{ section.settings.section_image | img_url: 'large' }}" alt="Section Image" />
+      {% else %}
+        <p>Upload an image to display here.</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .custom-section {
+    text-align: center;
+    padding: 40px 0;
+  }
+  .custom-text {
+    margin-bottom: 20px;
+  }
+  .custom-image img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
