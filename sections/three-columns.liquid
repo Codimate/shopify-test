@@ -1,0 +1,74 @@
+
+<div class="three-columns">
+  <div class="left-column">
+    <h2>{{ section.settings.left_text_heading }}</h2>
+    <p>{{ section.settings.left_text_content }}</p>
+  </div>
+  
+  <div class="center-column">
+    <img src="{{ section.settings.center_image | img_url: '600x600' }}" alt="{{ section.settings.center_image_alt }}">
+  </div>
+  
+  <div class="right-column">
+    <h2>{{ section.settings.right_text_heading }}</h2>
+    <p>{{ section.settings.right_text_content }}</p>
+  </div>
+</div>
+
+<style>
+.three-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-column, .right-column {
+  width: 25%;
+  text-align: center;
+}
+.center-column {
+  width: 40%;
+  text-align: center;
+}
+.center-column img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+
+{% schema %}
+    {
+      "name": "Three Columns with Image",
+      "settings": [
+        {
+          "type": "text",
+          "id": "left_text_heading",
+          "label": "Left Column Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "left_text_content",
+          "label": "Left Column Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "center_image",
+          "label": "Center Image"
+        },
+        {
+          "type": "text",
+          "id": "center_image_alt",
+          "label": "Center Image Alt Text"
+        },
+        {
+          "type": "text",
+          "id": "right_text_heading",
+          "label": "Right Column Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "right_text_content",
+          "label": "Right Column Content"
+        }
+      ]
+    }
+    {% endschema %}
