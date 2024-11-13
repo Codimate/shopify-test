@@ -12,21 +12,21 @@
     "slideshow_JcayDF": {
       "type": "slideshow",
       "blocks": {
-        "slide_TJBKnJ": {
+        "slide_eMK6AA": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/05.png",
-            "heading": "",
+            "image": "shopify://shop_images/03.png",
+            "heading": "Image slide",
             "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": false,
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "",
             "text_alignment_mobile": "center"
           }
         },
@@ -48,33 +48,33 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_eMK6AA": {
+        "slide_TJBKnJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/03.png",
-            "heading": "Image slide",
+            "image": "shopify://shop_images/05.png",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "slide_TJBKnJ",
+        "slide_eMK6AA",
         "slide_4jqNbn",
-        "slide_eMK6AA"
+        "slide_TJBKnJ"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 3,
