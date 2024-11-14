@@ -15,7 +15,7 @@
         "slide_eMK6AA": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/03.png",
+            "image": "shopify://shop_images/ActiveDelights.png",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -33,7 +33,7 @@
         "slide_4jqNbn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/04.png",
+            "image": "shopify://shop_images/ActiveDelights_2.png",
             "heading": "Image slider",
             "heading_size": "h0",
             "subheading": "Tell your brand's story through images",
@@ -51,7 +51,7 @@
         "slide_TJBKnJ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/05.png",
+            "image": "shopify://shop_images/ActiveDelights_3.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
